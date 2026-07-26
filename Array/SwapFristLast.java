@@ -21,8 +21,7 @@ public static void main(String[] args) {
     }
     SwapFristLast obj = new SwapFristLast();
     obj .arr1(arr);
-    for(int i = 0; i<arr.length; i++){
-        System.out.print(arr[i]);
+    
     }
 }
 }
