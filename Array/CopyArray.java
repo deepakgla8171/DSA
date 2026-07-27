@@ -12,7 +12,7 @@ public class CopyArray {
      Scanner sc = new Scanner(System.in);
      System.out.print("Enter Size ");
      int n = sc.nextInt();
-  
+     System.out.print("Enter Element ");
      int arr[] = new int [n];
      int copyarr[] = new int[n];
      for(int i = 0; i<n; i++){
