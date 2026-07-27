@@ -2,13 +2,15 @@ package Array;
 import java.util.*;
 public class test {
     void arr1(int arr[],int sum){
+        int count=0;
    for(int i =0; i<arr.length; i++){
-for(int j = 1; j<arr.length; j++){
+for(int j = 1+1; j<arr.length; j++){
     if(arr[i] + arr[j] == sum){
-        System.out.print("sum pair "+ i);
+     count++;
     }
 }
    }
+   System.out.print(count);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
