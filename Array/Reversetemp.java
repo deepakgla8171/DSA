@@ -6,14 +6,16 @@ public class Reversetemp {
 
     void arr1(int arr[]) {
 
-        int temp;
+        int temp=0;
+         int j = arr.length - 1;
+        for (int i = 0; i < j; i++) {
+         temp = arr[i];
+         arr[i] = arr[j];
+        arr[j] = temp;
 
-        for (int i = 0, j = arr.length - 1; i < j; i++, j--) {
-
-            temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
-        }
+    j--;
+}
+     
 
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
