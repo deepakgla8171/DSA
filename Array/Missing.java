@@ -8,10 +8,7 @@ public class Missing {
    sum = sum+arr[i];
 
       }
-       int miss = n*(n+1)/2;
-      total = sum - miss;
-      System.out.print(total);
-    }
+ 
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
  System.out.print("Enter Size ");
