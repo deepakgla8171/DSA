@@ -10,7 +10,7 @@ public class Rotation {
         while (i < j) {
             swap(arr, i, j);
             i++;
-            j--;
+        
         }
     }
     static void rotate(int arr[], int k) {
