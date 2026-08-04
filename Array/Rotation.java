@@ -8,7 +8,7 @@ public class Rotation {
     }
     static void reverse(int arr[], int i, int j) {
         while (i < j) {
-       
+            swap(arr, i, j);
             i++;
             j--;
         }
