@@ -9,7 +9,7 @@ public class duplicate {
             for(int j = 1; j<arr.length; j++){
            if(arr[i] == arr[j]){
             System.out.print(du);
-           
+            du++;
            }
             }
         }
