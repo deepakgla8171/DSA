@@ -9,7 +9,7 @@ public class SecondLagest {
         max = arr[arr.length-2];
         
         }
-        
+         System.out.print(max);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
