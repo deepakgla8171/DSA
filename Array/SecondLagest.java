@@ -6,7 +6,7 @@ public class SecondLagest {
         int max = arr[0];
         Arrays.sort(arr);
         for(int i = 0; i<arr.length; i++){
-        max = arr[arr.length-2];
+      
         
         }
          System.out.print(max);
