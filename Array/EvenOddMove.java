@@ -46,7 +46,8 @@ public class EvenOddMove {
 
         move(arr);
        System.out.println("Even First Ans Odd Second: ");
+         sort(arr);
        printArray(arr);
-       sort(arr);
+     
     }
 }
