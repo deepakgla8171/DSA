@@ -36,7 +36,7 @@ public class MoveZero {
         printArray(arr);
         move(arr);
         System.out.println("Move Array");
-       
+        printArray(arr);
     }
    
 }
