@@ -5,7 +5,7 @@ public class Missing {
         int sum = 0;
         int total = 0;
       for(int i = 0; i<arr.length; i++){
-   sum = sum+arr[i];
+        sum = sum+arr[i];
 
       }
        int miss = n*(n+1)/2;
