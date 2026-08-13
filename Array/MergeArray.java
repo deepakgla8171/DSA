@@ -8,7 +8,7 @@ public class MergeArray {
              index++;
         }
          for(int j = 0; j<arr2.length; j++){
-           
+            merarr[index] = arr2[j];
             index++;
         
          }
