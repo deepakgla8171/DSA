@@ -7,7 +7,7 @@ void arr1(int arr[]){
    
     temp = arr[0];
     arr[0] = arr[arr.length-1];
-    arr[arr.length-1] = temp;
+   
    
 }
 public static void main(String[] args) {
