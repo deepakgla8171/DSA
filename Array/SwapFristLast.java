@@ -16,9 +16,7 @@ public static void main(String[] args) {
     int n = sc.nextInt();
     System.out.print("Enter Array Ele ");
     int arr[] = new int[n];
-    for(int i = 0; i<n; i++){
-        arr[i] = sc.nextInt();
-    }
+ 
     SwapFristLast obj = new SwapFristLast();
     obj .arr1(arr);
     for(int i = 0; i<arr.length; i++){
