@@ -11,7 +11,7 @@ public class sum {
             }
         }
 
-        System.out.println("Sum = " + sum);
+     
     }
 
     static void print(int arr1[][]) {
