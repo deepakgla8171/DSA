@@ -29,3 +29,4 @@ public class duplicate {
 
     }
 }
+// tc = o(n ki power 2)
