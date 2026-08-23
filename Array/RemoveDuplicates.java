@@ -12,7 +12,7 @@ public class RemoveDuplicates {
     return res;
    }
    public static void main(String[] args) {
-    int arr[] ={1,1,0,0,2,3,3,4,4};
+    
    int n = dup(arr);
     for(int i =0; i<n; i++){
         System.out.print(arr[i] + " ");
