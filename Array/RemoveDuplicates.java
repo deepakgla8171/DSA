@@ -9,7 +9,7 @@ public class RemoveDuplicates {
             res++;
         }
     }
-    return res;
+  
    }
    public static void main(String[] args) {
     int arr[] ={1,1,0,0,2,3,3,4,4};
