@@ -9,7 +9,10 @@ public class rep {
                 count++;
             }
         }
-    
+        if(count > 1){
+         System.out.print(arr[i]); 
+         return;
+        }
       
       }
 
