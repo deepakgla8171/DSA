@@ -34,7 +34,7 @@ public class Reversetemp {
         System.out.println("Enter Elements:");
 
         for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
+          
         }
 
         Reversetemp obj = new Reversetemp();
