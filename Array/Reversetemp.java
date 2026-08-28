@@ -28,7 +28,7 @@ public class Reversetemp {
   Scanner sc = new Scanner(System.in);
         System.out.print("Enter Size: ");
         int n = sc.nextInt();
-
+    int arr[] = new int[n];
     
 
         System.out.println("Enter Elements:");
