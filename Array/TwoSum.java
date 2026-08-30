@@ -20,7 +20,7 @@ public class TwoSum {
         System.out.print("Enter Array Ele ");
         int arr[] = new int[n];
         for(int i = 0; i<arr.length; i++){
-            arr[i] = sc.nextInt();
+        
         }
         System.out.print("Enter Target Number: ");
         int target = sc.nextInt();
