@@ -24,7 +24,7 @@ public class TwoSum {
         }
         System.out.print("Enter Target Number: ");
         int target = sc.nextInt();
-    
+        TwoSum obj = new TwoSum();
         obj.arrys(arr, target);
     }
 }
