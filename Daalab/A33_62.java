@@ -7,7 +7,7 @@ public class A33_62 {
         int n = sc.nextInt();
         int arr1[] = new int[n];
         int arr2[] = new int[n];
-   
+        int arr3[] = new int[n];
          System.out.print("Enter Element Array1: ");
         for(int i = 0; i < n; i++)
             arr1[i] = sc.nextInt();
