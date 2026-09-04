@@ -20,7 +20,7 @@ public class Prime {
 
     public static void main(String[] args) {
 
-    
+        boolean ans = prime(13);
         System.out.println(ans);
     }
 }
