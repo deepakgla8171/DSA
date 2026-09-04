@@ -4,7 +4,7 @@ public class SearchElement {
     void arr1(int arr[],int sea){
         for(int i = 0; i<arr.length; i++){
             if(arr[i] == sea){
-                System.out.print("index " + i);
+           
             }
         }
     }
