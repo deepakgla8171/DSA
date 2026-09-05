@@ -7,6 +7,7 @@ public class Max {
             if(arr[i] > max){
               
                
+                max = arr[i];
             }
         }
          System.out.print("Max " + max);
