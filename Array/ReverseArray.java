@@ -20,9 +20,7 @@ public class ReverseArray {
         System.out.print("Enter Element ");
         int arr[] = new int[n];
         int newarray[] = new int[n];
-        for(int i = 0; i<n; i++){
-            arr[i] = sc.nextInt();
-        }
+      
         ReverseArray obj = new ReverseArray();
       obj.arr1(arr,newarray);
     }
