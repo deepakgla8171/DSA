@@ -15,7 +15,7 @@ public class SortArray{
       }
    }
    public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+  
     System.out.print("Enter Size ");
     int n = sc.nextInt();
     System.out.print("Enter Array Element ");
